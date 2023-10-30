@@ -258,7 +258,7 @@ input[type="submit"] {
     width: 100%;
   }
 
-  .carousel-inner img {
+  .carousel-item img {
     aspect-ratio: 16 / 9;
     width: 100%;
     object-fit: cover;
@@ -311,6 +311,9 @@ input[type="submit"] {
     flex-direction: column;
   }
   #contact .picture.right {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
     margin-top: 1em;
   }
   .picture.right::before {
@@ -322,7 +325,7 @@ input[type="submit"] {
     z-index: -1;
   }
 
-  .carousel-inner img {
+  .carousel-item img {
     aspect-ratio: 16 / 9;
     width: 100%;
     object-fit: cover;
@@ -365,7 +368,7 @@ input[type="submit"] {
   .picture {
     width: 80%;
   }
-  .carousel-inner img {
+  .carousel-item img {
     aspect-ratio: 16 / 9;
     width: 100%;
     object-fit: cover;
