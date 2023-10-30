@@ -259,8 +259,9 @@ input[type="submit"] {
   }
 
   .carousel-inner img {
-    height: 500px;
+    aspect-ratio: 16 / 9;
     width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -322,8 +323,9 @@ input[type="submit"] {
   }
 
   .carousel-inner img {
-    height: 400px;
+    aspect-ratio: 16 / 9;
     width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -364,7 +366,8 @@ input[type="submit"] {
     width: 80%;
   }
   .carousel-inner img {
-    height: 277px;
+    aspect-ratio: 16 / 9;
     width: 100%;
+    object-fit: cover;
   }
 }
