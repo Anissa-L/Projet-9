@@ -69,7 +69,7 @@ body {
 
 .picture img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 #about-me {
@@ -261,7 +261,7 @@ input[type="submit"] {
   }
 
   .carousel-item img {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 1 / 1;
     width: 100%;
     object-fit: cover;
   }
@@ -328,7 +328,7 @@ input[type="submit"] {
   }
 
   .carousel-item img {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 1 / 1;
     width: 100%;
     object-fit: cover;
   }
@@ -371,7 +371,7 @@ input[type="submit"] {
     width: 80%;
   }
   .carousel-item img {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 1 / 1;
     width: 100%;
     object-fit: cover;
   }
