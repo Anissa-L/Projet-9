@@ -42,6 +42,11 @@ body {
   width: 20px;
 }
 
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -69,7 +74,6 @@ body {
 
 .picture img {
   width: 100%;
-  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 #about-me {
@@ -259,12 +263,6 @@ input[type="submit"] {
   #about-me p {
     width: 100%;
   }
-
-  .carousel-item img {
-    aspect-ratio: 1 / 1;
-    width: 100%;
-    object-fit: cover;
-  }
 }
 
 @media all and (max-width: 1000px) {
@@ -313,7 +311,6 @@ input[type="submit"] {
     flex-direction: column;
   }
   #contact .picture.right {
-    aspect-ratio: 1 / 1;
     width: 100%;
     object-fit: cover;
     margin-top: 1em;
@@ -325,12 +322,6 @@ input[type="submit"] {
     bottom: 0;
     right: 0;
     z-index: -1;
-  }
-
-  .carousel-item img {
-    aspect-ratio: 1 / 1;
-    width: 100%;
-    object-fit: cover;
   }
 }
 
@@ -369,10 +360,5 @@ input[type="submit"] {
   }
   .picture {
     width: 80%;
-  }
-  .carousel-item img {
-    aspect-ratio: 1 / 1;
-    width: 100%;
-    object-fit: cover;
   }
 }
