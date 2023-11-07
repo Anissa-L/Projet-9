@@ -283,26 +283,17 @@
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
-            <picture>
-              <source
-                media="(max-width: 650px) 300px"
-                srcset="
-                  ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_300.webp 300w
-                "
-              />
-              <source
-                media="651px"
-                srcset="
-                  ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_424.webp 500w
-                "
-              />
-              <img
-                data-gallery-tag="Concert"
-                class="gallery-item"
-                src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_300.webp"
-                alt="photo d'un concert de musique"
-              />
-            </picture>
+            <img
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              srcset="
+                ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_300.webp 300w,
+                ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_424.webp
+              "
+              sizes="(max-width: 650px) 300px"
+              src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_300.webp"
+              alt="photo d'un concert de musique"
+            />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
